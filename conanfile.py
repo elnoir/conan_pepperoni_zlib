@@ -6,7 +6,7 @@ class PepperonizlibConan(ConanFile):
     version = "1.2.11"
     license = ""
     author = "Bittner Ede bittner.ede@gmail.com"
-    url = ""
+    url = "https://github.com/elnoir/conan_pepperoni_zlib"
     description = ""
     topics = ("zlib", "minizip")
     settings = "os", "compiler", "build_type", "arch"
