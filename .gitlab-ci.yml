@@ -42,9 +42,3 @@ clang-7.0:
         CONAN_CLANG_VERSIONS: "7.0"
     <<: *build-template
 
-clang-7.1:
-    image: conanio/clang71
-    variables:
-        CONAN_CLANG_VERSIONS: "7.1"
-    <<: *build-template
-
